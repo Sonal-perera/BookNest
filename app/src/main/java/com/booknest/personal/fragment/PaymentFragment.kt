@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,11 +9,10 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.activity.CheckoutActivity
-import com.booknest.community.activity.ConfirmationActivity
-import com.booknest.community.adapter.OrderSummaryAdapter
-import com.booknest.community.model.Cart
+import com.booknest.personal.R
+import com.booknest.personal.activity.ConfirmationActivity
+import com.booknest.personal.adapter.OrderSummaryAdapter
+import com.booknest.personal.model.Cart
 import com.google.android.material.radiobutton.MaterialRadioButton
 
 class PaymentFragment : Fragment() {

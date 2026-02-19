@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,11 +9,10 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.adapter.CartAdapter
-import com.booknest.community.adapter.FeaturedBooksAdapter
-import com.booknest.community.model.Books
-import com.booknest.community.model.Cart
+import com.booknest.personal.R
+import com.booknest.personal.fragment.ShippingFragment
+import com.booknest.personal.adapter.CartAdapter
+import com.booknest.personal.model.Cart
 import com.google.android.material.appbar.MaterialToolbar
 
 class CartFragment : Fragment() {

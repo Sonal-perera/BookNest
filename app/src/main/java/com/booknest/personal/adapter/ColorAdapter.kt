@@ -1,4 +1,4 @@
-package com.booknest.community.adapter
+package com.booknest.personal.adapter
 
 import android.content.Context
 import android.graphics.Color
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.model.Colors
+import com.booknest.personal.R
+import com.booknest.personal.model.Colors
 import com.google.android.material.card.MaterialCardView
 
 class ColorAdapter(private val colors: List<Colors>, private val context: Context) :

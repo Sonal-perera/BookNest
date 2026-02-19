@@ -1,7 +1,6 @@
-package com.booknest.community.activity
+package com.booknest.personal.activity
 
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -11,12 +10,10 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.booknest.community.R
-import com.booknest.community.adapter.ColorAdapter
-import com.booknest.community.adapter.FeaturedBooksAdapter
-import com.booknest.community.adapter.TemplateAdapter
-import com.booknest.community.model.Books
-import com.booknest.community.model.Colors
-import com.booknest.community.model.Template
+import com.booknest.personal.adapter.ColorAdapter
+import com.booknest.personal.adapter.TemplateAdapter
+import com.booknest.personal.model.Colors
+import com.booknest.personal.model.Template
 import com.google.android.material.appbar.MaterialToolbar
 
 class DesignedBooksActivity : AppCompatActivity() {

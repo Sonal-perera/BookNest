@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,10 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import android.widget.TextView
-import com.booknest.community.R
-import com.booknest.community.activity.CheckoutActivity
-import com.booknest.community.activity.DesignedBooksActivity
-import com.booknest.community.activity.NewBookActivity
+import com.booknest.personal.R
+import com.booknest.personal.activity.NewBookActivity
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

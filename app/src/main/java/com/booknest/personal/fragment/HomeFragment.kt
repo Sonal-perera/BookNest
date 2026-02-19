@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,13 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.activity.CheckoutActivity
-import com.booknest.community.adapter.CustomSelectorAdapter
-import com.booknest.community.adapter.FeaturedBooksAdapter
-import com.booknest.community.adapter.NewBooksAdapter
-import com.booknest.community.model.Books
-import com.booknest.community.model.Status
+import com.booknest.personal.R
+import com.booknest.personal.activity.CheckoutActivity
+import com.booknest.personal.adapter.CustomSelectorAdapter
+import com.booknest.personal.adapter.FeaturedBooksAdapter
+import com.booknest.personal.adapter.NewBooksAdapter
+import com.booknest.personal.model.Books
+import com.booknest.personal.model.Status
 import com.google.android.material.appbar.MaterialToolbar
 
 class HomeFragment : Fragment() {

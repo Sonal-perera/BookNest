@@ -1,4 +1,4 @@
-package com.booknest.community.adapter
+package com.booknest.personal.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -10,8 +10,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.model.Books
+import com.booknest.personal.R
+import com.booknest.personal.model.Books
 
 class NewBooksAdapter(private val books: List<Books>, private val context: Context) :
     RecyclerView.Adapter<NewBooksAdapter.NewBooksVH>() {

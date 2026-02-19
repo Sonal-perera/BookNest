@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,11 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.adapter.FeaturedBooksAdapter
-import com.booknest.community.model.Books
+import com.booknest.personal.R
+import com.booknest.personal.adapter.FeaturedBooksAdapter
+import com.booknest.personal.model.Books
 
 class ExploreFragment : Fragment() {
     override fun onCreateView(

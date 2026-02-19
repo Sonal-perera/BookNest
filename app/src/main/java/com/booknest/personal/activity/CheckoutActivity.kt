@@ -1,4 +1,4 @@
-package com.booknest.community.activity
+package com.booknest.personal.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

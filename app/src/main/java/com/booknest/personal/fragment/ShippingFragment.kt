@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.adapter.OrderSummaryAdapter
-import com.booknest.community.model.Cart
+import com.booknest.personal.R
+import com.booknest.personal.adapter.OrderSummaryAdapter
+import com.booknest.personal.fragment.PaymentFragment
+import com.booknest.personal.model.Cart
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.radiobutton.MaterialRadioButton
 

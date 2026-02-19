@@ -1,4 +1,4 @@
-package com.booknest.community.model
+package com.booknest.personal.model
 
 import java.util.Date
 

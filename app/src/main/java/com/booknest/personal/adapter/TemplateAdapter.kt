@@ -1,17 +1,14 @@
-package com.booknest.community.adapter
+package com.booknest.personal.adapter
 
 import android.content.Context
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.model.Colors
-import com.booknest.community.model.Template
-import com.google.android.material.card.MaterialCardView
+import com.booknest.personal.R
+import com.booknest.personal.model.Template
 
 class TemplateAdapter(private val templates: List<Template>, private val context: Context) :
     RecyclerView.Adapter<TemplateAdapter.TemplateVH>() {

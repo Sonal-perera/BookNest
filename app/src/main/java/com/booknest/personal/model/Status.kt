@@ -1,4 +1,4 @@
-package com.booknest.community.model
+package com.booknest.personal.model
 
 data class Status(
     val name: String

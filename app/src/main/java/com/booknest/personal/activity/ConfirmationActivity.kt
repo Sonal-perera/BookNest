@@ -1,4 +1,4 @@
-package com.booknest.community.activity
+package com.booknest.personal.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,12 +9,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.adapter.FeaturedBooksAdapter
-import com.booknest.community.adapter.PaymentOrderAdapter
-import com.booknest.community.model.Books
-import com.booknest.community.model.Cart
-import com.booknest.community.model.Order
+import com.booknest.personal.R
+import com.booknest.personal.adapter.PaymentOrderAdapter
+import com.booknest.personal.model.Cart
 
 class ConfirmationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

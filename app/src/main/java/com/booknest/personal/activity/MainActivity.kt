@@ -1,27 +1,19 @@
-package com.booknest.community.activity
+package com.booknest.personal.activity
 
 import android.content.Intent
 import android.content.res.ColorStateList
-import android.graphics.Color
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.content.res.AppCompatResources
-import androidx.appcompat.widget.Toolbar
-import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.booknest.community.R
-import com.booknest.community.fragment.ExploreFragment
-import com.booknest.community.fragment.HomeFragment
-import com.booknest.community.fragment.MyBooksFragment
-import com.booknest.community.fragment.OrderFragment
-import com.booknest.community.fragment.ProfileFragment
-import com.google.android.material.appbar.MaterialToolbar
+import com.booknest.personal.fragment.ExploreFragment
+import com.booknest.personal.fragment.HomeFragment
+import com.booknest.personal.fragment.MyBooksFragment
+import com.booknest.personal.fragment.OrderFragment
+import com.booknest.personal.fragment.ProfileFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 

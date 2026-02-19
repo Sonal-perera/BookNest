@@ -1,4 +1,4 @@
-package com.booknest.community.fragment
+package com.booknest.personal.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,19 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.adapter.CustomSelectorAdapter
-import com.booknest.community.adapter.FeaturedBooksAdapter
-import com.booknest.community.adapter.NewBooksAdapter
-import com.booknest.community.adapter.OrdersAdapter
-import com.booknest.community.model.Books
-import com.booknest.community.model.Order
-import com.booknest.community.model.Status
+import com.booknest.personal.R
+import com.booknest.personal.adapter.CustomSelectorAdapter
+import com.booknest.personal.adapter.OrdersAdapter
+import com.booknest.personal.fragment.HomeFragment
+import com.booknest.personal.model.Order
+import com.booknest.personal.model.Status
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import java.text.SimpleDateFormat
-import java.time.Instant
-import java.util.Date
 
 class OrderFragment : Fragment() {
     override fun onCreateView(

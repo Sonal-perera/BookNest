@@ -1,4 +1,4 @@
-package com.booknest.community.activity
+package com.booknest.personal.activity
 
 import android.content.Intent
 import android.os.Bundle

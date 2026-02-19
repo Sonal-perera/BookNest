@@ -1,4 +1,4 @@
-package com.booknest.community.adapter
+package com.booknest.personal.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,10 +10,9 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.activity.CheckoutActivity
-import com.booknest.community.activity.ReadActivity
-import com.booknest.community.model.Books
+import com.booknest.personal.R
+import com.booknest.personal.activity.ReadActivity
+import com.booknest.personal.model.Books
 
 class FeaturedBooksAdapter(private val books: List<Books>, private val context: Context) :
     RecyclerView.Adapter<FeaturedBooksAdapter.FeaturedBooksVH>() {

@@ -1,22 +1,16 @@
-package com.booknest.community.adapter
+package com.booknest.personal.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.booknest.community.R
-import com.booknest.community.activity.NewBookActivity
-import com.booknest.community.model.Books
-import com.booknest.community.model.Cart
-import com.booknest.community.model.Order
+import com.booknest.personal.R
+import com.booknest.personal.model.Books
 
 class MyBooksAdapter(private val myBooks: List<Books>, private val context: Context) :
     RecyclerView.Adapter<MyBooksAdapter.MyBooksVH>() {
