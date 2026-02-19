@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NewBookActivity">
+
+    <EditText
+        android:id="@+id/editTextText3"
+        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/outlined_background"
+        android:ems="10"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="@string/hint9"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView145"
+        app:layout_constraintTop_toBottomOf="@+id/textView145" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/save_menu"
+        app:navigationIcon="@drawable/arrow_left_solid"
+        app:titleTextAppearance="@style/BoldToolbarTitle" />
+
+    <View
+        android:id="@+id/divider17"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar6" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider17">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardBackgroundColor="@color/gradient_1"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            app:cardCornerRadius="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="150dp"
+                                android:layout_height="200dp"
+                                android:background="@color/icon_grey"
+                                android:scaleType="center"
+                                app:srcCompat="@drawable/image_regular" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView142"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="20dp"
+                            android:drawableStart="@drawable/camera_solid"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/primary"
+                            android:fontFamily="@font/poppins_semi_bold"
+                            android:gravity="center_vertical"
+                            android:text="@string/text117"
+                            android:textColor="@color/primary"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView11"
+                            app:layout_constraintStart_toStartOf="@+id/cardView11"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView11" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@color/gradient_1"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toTopOf="@+id/constraintLayout15"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView10"
+                    app:layout_constraintStart_toStartOf="@+id/cardView10"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView10">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView145"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text118"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <EditText
+                            android:id="@+id/editTextText"
+                            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/outlined_background"
+                            android:ems="10"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint="@string/hint9"
+                            android:inputType="text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/textView145"
+                            app:layout_constraintTop_toBottomOf="@+id/textView145" />
+
+                        <EditText
+                            android:id="@+id/editTextText2"
+                            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/outlined_background"
+                            android:ems="10"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint="@string/hint10"
+                            android:inputType="text"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextText"
+                            app:layout_constraintStart_toStartOf="@+id/textView145"
+                            app:layout_constraintTop_toBottomOf="@+id/textView146" />
+
+                        <EditText
+                            android:id="@+id/editTextText4"
+                            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/outlined_background"
+                            android:ems="10"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint="@string/hint11"
+                            android:inputType="text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/textView145"
+                            app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+                        <EditText
+                            android:id="@+id/editTextText5"
+                            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/outlined_background"
+                            android:drawableEnd="@drawable/calender"
+                            android:drawableTint="@color/light_grey"
+                            android:ems="10"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint="@string/hint12"
+                            android:inputType="datetime|date"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner"
+                            app:layout_constraintStart_toStartOf="@+id/textView145"
+                            app:layout_constraintTop_toBottomOf="@+id/textView149" />
+
+                        <EditText
+                            android:id="@+id/editTextText6"
+                            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/outlined_background"
+                            android:ems="10"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint="@string/hint13"
+                            android:inputType="number|numberDecimal"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextText5"
+                            app:layout_constraintStart_toStartOf="@+id/textView145"
+                            app:layout_constraintTop_toBottomOf="@+id/textView150" />
+
+                        <TextView
+                            android:id="@+id/textView146"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text119"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="@+id/editTextText"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+                        <TextView
+                            android:id="@+id/textView147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text120"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="@+id/editTextText2"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+                        <TextView
+                            android:id="@+id/textView148"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text121"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="@+id/editTextText4"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/outlined_background"
+                            android:entries="@android:array/emailAddressTypes"
+                            android:paddingTop="12dp"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextText4"
+                            app:layout_constraintStart_toStartOf="@+id/textView148"
+                            app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+                        <TextView
+                            android:id="@+id/textView149"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text122"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="@+id/spinner"
+                            app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+                        <TextView
+                            android:id="@+id/textView150"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text123"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="@+id/editTextText5"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
+
+                        <TextView
+                            android:id="@+id/textView151"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="@string/text124"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="@+id/editTextText6"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine"
+                            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/outlined_background"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:hint="@string/hint14"
+                            android:inputType="textMultiLine"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextText6"
+                            app:layout_constraintStart_toStartOf="@+id/textView151"
+                            app:layout_constraintTop_toBottomOf="@+id/textView151" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView12">
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="@color/primary"
+                        android:fontFamily="@font/poppins_regular"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/text125"
+                        android:textSize="16sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
