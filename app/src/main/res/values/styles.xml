@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/launcher_background</item>
+        <item name="android:statusBarColor">@color/gradient_1</item>
+        <item name="android:navigationBarColor">@color/gradient_1</item>
+    </style>
+    <style name="NormalTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/gradient_1</item>
+    </style>
+    <style name="BoldToolbarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomNavigationView" parent="ThemeOverlay.Material3.NavigationView">
+        <item name="android:background">@color/gradient_1</item>
+        <item name="itemIconTint">@color/primary</item>
+    </style>
+
+</resources>
